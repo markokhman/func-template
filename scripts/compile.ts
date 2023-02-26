@@ -26,8 +26,6 @@ async function compileScript() {
 
   const hexArtifact = `build/main.compiled.json`;
 
-  console.log(compileResult.codeBoc);
-
   fs.writeFileSync(
     hexArtifact,
     JSON.stringify({
